@@ -7,7 +7,9 @@ first assigment
 ---
 
 Favorite color: Violet
+
 Favorite language: English
+
 My favorite restaurants:
 
 1. I have to apologize
