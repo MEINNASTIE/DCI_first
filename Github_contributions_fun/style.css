@@ -1,0 +1,102 @@
+/* font family ***********/
+
+@font-face {
+    font-family: 'Mona Sans';
+    src:
+      url('Mona-Sans.woff2') format('woff2 supports variations'),
+      url('Mona-Sans.woff2') format('woff2-variations');
+    font-weight: 200 900;
+    font-stretch: 75% 125%;
+  }
+
+
+/* BASE ****************/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 400;
+}
+
+body {
+    margin: 20px;
+    padding: 20px;
+    background-color: #0d1117;  
+    
+}
+
+h2 {
+    color: white;
+    font-size: 2em;
+    margin-bottom: 30px;
+}
+
+.wrapper {
+    border: 1px solid rgb(65, 65, 65);
+    border-radius: 20px;
+    padding: 40px;
+    color: white;
+}
+
+.wrapper h3 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 1.8em;
+}
+
+.container_grid {
+    display: grid;
+    grid-template-columns: repeat(8, 50px);
+    gap: 15px;
+    justify-content: center;
+}
+
+.cube {
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: #161b22;
+}
+
+.footer {
+    display: flex;
+    margin-top: 30px;
+    align-items: center;
+    color: #7d8590;
+    font-size: 1.2em;
+}
+
+.footer > h4 {
+    flex-grow: 2;
+    cursor: pointer;
+}
+
+.footer > h4:hover {
+    color: dodgerblue;
+}
+
+.color_cube {
+    width: 30px;
+    height: 30px;
+    background-color: #161b22;
+    border-radius: 10px 10px 5px 5px;
+    margin: 0 4px;
+}
+
+.one {
+  background-color:  #0e4429; 
+}
+
+.two {
+    background-color: #006d32;
+}
+
+.three {
+    background-color: #26a641;
+}
+
+.four {
+    background-color: #39d353;
+}
